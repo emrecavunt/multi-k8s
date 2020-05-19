@@ -29,8 +29,8 @@ name : client ### Can't be updated!
 port: 3000 ### Can't be updated!
 image: multi-worker  ### Can be update
 
- | Pods                             |  Deployment
--------------------------------------------------
+ | Pods                             | Deployment
+------------------------------------------------
 - Runs a single set of containers   | - Runs a set of identical pods (one or more)
 - Good For one-off dev purposess    | - Monitors the state of each pod, updating as necessary
 - Rarely used directly in           | - Good for dev
